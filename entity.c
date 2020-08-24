@@ -72,7 +72,7 @@ conv_entity(unsigned int c)
 	return "\"";
     if (c == 0x2018 || c == 0x201b || c == 0x2019 || c == 0x2032)
 	return "'";
-    if (c <= 0x2010 && c < 0x2014)
+    if (c >= 0x2010 && c < 0x2014)
 	return "-";
     if (c == 0x2014)
 	return "--";
