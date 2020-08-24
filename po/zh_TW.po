@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: w3m 0.5.3\n"
 "Report-Msgid-Bugs-To: satodai@w3m.jp\n"
-"POT-Creation-Date: 2020-08-24 06:37-0400\n"
+"POT-Creation-Date: 2020-08-24 06:52-0400\n"
 "PO-Revision-Date: 2016-03-14 19:51+0900\n"
 "Last-Translator: Ambrose Li <ambrose.li@gmail.com>\n"
 "Language-Team: Pidgin zh_TW <http://www.transifex.com/pidgin/pidgin/language/"
@@ -73,11 +73,11 @@ msgstr " 儲存連結     (A) "
 
 #: menu.c:282
 msgid " View Image   (i) "
-msgstr " 檢視圖片     (i) "
+msgstr " 檢視影像     (i) "
 
 #: menu.c:283
 msgid " Save Image   (I) "
-msgstr " 儲存圖片     (I) "
+msgstr " 儲存影像     (I) "
 
 #: menu.c:284
 msgid " View Frame   (f) "
@@ -221,7 +221,7 @@ msgstr "所有表格一律顯示外框和格線（忽略 BORDER 數值）"
 
 #: rc.c:94
 msgid "Fold lines in TEXTAREA"
-msgstr "在文字區 (TEXTAREA) 中摺疊行"
+msgstr "在文字區 (TEXTAREA) 中啟動自動換行"
 
 #: rc.c:95
 msgid "Display INS, DEL, S and STRIKE element"
@@ -249,7 +249,7 @@ msgstr "表格顏色"
 
 #: rc.c:101
 msgid "Enable coloring of active link"
-msgstr "啟動指定顏色，以顯示目前的連結"
+msgstr "以特定顏色顯示目前的連結"
 
 #: rc.c:102
 msgid "Color of currently active link"
@@ -257,7 +257,7 @@ msgstr "目前連結的顏色"
 
 #: rc.c:103
 msgid "Use visited link color"
-msgstr "啟動指定顏色，以顯示開啟過的連結"
+msgstr "以特定顏色顯示開啟過的連結"
 
 #: rc.c:104
 msgid "Color of visited link"
@@ -297,7 +297,7 @@ msgstr "不使用代理伺服器的網域"
 
 #: rc.c:117
 msgid "Check noproxy by network address"
-msgstr "上列不使用代理伺服器的網域包含網路位址"
+msgstr "上列不使用代理伺服器的網域含有網路位址"
 
 #: rc.c:118
 msgid "Disable cache"
@@ -313,7 +313,7 @@ msgstr "存取新聞伺服器時使用的模式參數"
 
 #: rc.c:122
 msgid "Number of news messages"
-msgstr "新聞訊息的讀取個數"
+msgstr "新聞訊息的每次讀取個數"
 
 #: rc.c:124
 msgid "Order of name resolution"
@@ -321,15 +321,15 @@ msgstr "主機名稱解析順序"
 
 #: rc.c:125
 msgid "Directory corresponding to / (document root)"
-msgstr "對應 / （文件根目錄）的目錄"
+msgstr "對應本地端 / （文件根目錄）的目錄"
 
 #: rc.c:126
 msgid "Directory corresponding to /~user"
-msgstr "對應 /~user 的目錄"
+msgstr "對應本地端 /~user 的目錄"
 
 #: rc.c:127
 msgid "Directory corresponding to /cgi-bin"
-msgstr "對應 /cgi-bin 的目錄"
+msgstr "對應本地端 /cgi-bin 的目錄"
 
 #: rc.c:128
 msgid "Confirm when quitting with q"
@@ -361,7 +361,7 @@ msgstr "跳到下一頁時將游標移到最頂行"
 
 #: rc.c:137
 msgid "Fold lines of plain text file"
-msgstr "對純文字檔案實行行摺疊"
+msgstr "對純文字檔案啟動列折叠（自動換行）處理"
 
 #: rc.c:138
 msgid "Show line numbers"
