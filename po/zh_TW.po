@@ -401,35 +401,35 @@ msgstr "外部瀏覽器"
 
 #: rc.c:147
 msgid "2nd external browser"
-msgstr "第二外部瀏覽器"
+msgstr "外部瀏覽器之二"
 
 #: rc.c:148
 msgid "3rd external browser"
-msgstr "第三外部瀏覽器"
+msgstr "外部瀏覽器之三"
 
 #: rc.c:149
 msgid "4th external browser"
-msgstr "第四外部瀏覽器"
+msgstr "外部瀏覽器之四"
 
 #: rc.c:150
 msgid "5th external browser"
-msgstr "第五外部瀏覽器"
+msgstr "外部瀏覽器之五"
 
 #: rc.c:151
 msgid "6th external browser"
-msgstr "第六外部瀏覽器"
+msgstr "外部瀏覽器之六"
 
 #: rc.c:152
 msgid "7th external browser"
-msgstr "第七外部瀏覽器"
+msgstr "外部瀏覽器之七"
 
 #: rc.c:153
 msgid "8th external browser"
-msgstr "第八外部瀏覽器"
+msgstr "外部瀏覽器之八"
 
 #: rc.c:154
 msgid "9th external browser"
-msgstr "第九外部瀏覽器"
+msgstr "外部瀏覽器之九"
 
 #: rc.c:155
 msgid "Disable secret file security check"
