@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: w3m 0.5.3\n"
 "Report-Msgid-Bugs-To: satodai@w3m.jp\n"
-"POT-Creation-Date: 2020-08-24 04:26-0400\n"
+"POT-Creation-Date: 2020-08-24 06:37-0400\n"
 "PO-Revision-Date: 2016-03-14 19:51+0900\n"
 "Last-Translator: Ambrose Li <ambrose.li@gmail.com>\n"
 "Language-Team: Pidgin zh_TW <http://www.transifex.com/pidgin/pidgin/language/"
@@ -385,7 +385,7 @@ msgstr "urlmethodmap 檔案列表"
 
 #: rc.c:143
 msgid "Editor"
-msgstr "編輯器"
+msgstr "文字編輯器"
 
 #: rc.c:144
 msgid "Mailer"
@@ -461,15 +461,15 @@ msgstr "User-Agent 識別字串"
 
 #: rc.c:162
 msgid "Accept-Encoding header"
-msgstr "接受的編碼 (Accept-Encoding) 標頭"
+msgstr "Accept-Encoding 標頭（可接受的壓縮方法）"
 
 #: rc.c:163
 msgid "Accept header"
-msgstr "接受 (Accept) 標頭"
+msgstr "Accept 標頭（可接受的文件格式）"
 
 #: rc.c:164
 msgid "Accept-Language header"
-msgstr "接受的語言 (Accept-Language) 標頭"
+msgstr "Accept-Language 標頭（可接受的語言）"
 
 #: rc.c:165
 msgid "Treat URL-like strings as links in all pages"
@@ -521,7 +521,7 @@ msgstr "目錄的索引檔案"
 
 #: rc.c:182
 msgid "Prepend http:// to URL automatically"
-msgstr "自動在網址前加入 http://"
+msgstr "自動在網址前加上 http://"
 
 #: rc.c:183
 msgid "Default value for open-URL command"
