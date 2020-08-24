@@ -511,9 +511,10 @@ msgstr "啟用基於 CGI 的詞典查詢"
 msgid "URL of dictionary lookup command"
 msgstr "詞典查詢指令的網址"
 
+# NOTE: This option is problematic because it enables a behaviour that violates WCAG
 #: rc.c:180
 msgid "Display link name for images lacking ALT"
-msgstr "影像 ALT 值為空白時顯示連結名稱"
+msgstr "影像 ALT 值為空白時顯示影像檔案名稱"
 
 #: rc.c:181
 msgid "Index file for directories"
@@ -821,11 +822,11 @@ msgstr "IPv6 然後 IPv4"
 
 #: rc.c:320
 msgid "inet only"
-msgstr "只限 IPv4"
+msgstr "限用 IPv4"
 
 #: rc.c:321
 msgid "inet6 only"
-msgstr "只限 IPv6"
+msgstr "限用 IPv6"
 
 #: rc.c:328
 msgid "discard"
