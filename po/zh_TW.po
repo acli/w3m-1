@@ -1,6 +1,7 @@
-# zh_TW translation for w3m, machine converted
-# Copyright (C) YEAR THE w3m'S COPYRIGHT HOLDER
+# zh_TW translation for w3m
+# Copyright (C) 2014-2000 w3m contributors.
 # This file is distributed under the same license as the w3m package.
+# Ambrose Li <ambrose.li@gmail.com>, 2020.
 # Junde Yi <lmy441900@gmail.com>, 2014.
 # Mingcong Bai <jeffbai@aosc.xyz>, 2014.
 # liushuyu <liushuyu_011@126.com>, 2014.
@@ -13,13 +14,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: satodai@w3m.jp\n"
 "POT-Creation-Date: 2016-03-14 19:47+0900\n"
 "PO-Revision-Date: 2016-03-14 19:51+0900\n"
-"Last-Translator: Tatsuya Kinoshita <tats@debian.org>\n"
-"Language-Team: AOSC zh_TW fuzzy <aosc@members.fsf.org>\n"
+"Last-Translator: Ambrose Li <ambrose.li@gmail.com>\n"
+"Language-Team: Pidgin zh_TW translation team <http://www.transifex.com/pidgin/pidgin/language/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: menu.c:269
@@ -32,7 +32,7 @@ msgstr " 選擇緩衝區       "
 
 #: menu.c:272
 msgid " Select Tab   (t) "
-msgstr " 選擇標籤     (t) "
+msgstr " 選擇分頁     (t) "
 
 #: menu.c:274
 msgid " View Source  (v) "
@@ -108,7 +108,7 @@ msgstr "用於 HTML 渲染"
 
 #: rc.c:65
 msgid "Number of pixels per character (4.0...32.0)"
-msgstr "每字型大小的畫素值 (4.0...32.0)"
+msgstr "半形字符像素寛度 (4.0...32.0)"
 
 #: rc.c:66
 msgid "Number of pixels per line (4.0...64.0)"
@@ -168,43 +168,43 @@ msgstr "顯示當前行數"
 
 #: rc.c:80
 msgid "Display inline images"
-msgstr "顯示內聯影象"
+msgstr "顯示嵌入影像"
 
 #: rc.c:81
 msgid "Display pseudo-ALTs for inline images with no ALT or TITLE string"
-msgstr "為不帶有 ALT 或 TITLE 字串的內聯影象顯示偽 ALT"
+msgstr "為不帶有 ALT 或 TITLE 字串的內聯影像顯示偽 ALT"
 
 #: rc.c:83
 msgid "Load inline images automatically"
-msgstr "自動載入行內影象"
+msgstr "自動載入嵌入影像"
 
 #: rc.c:84
 msgid "Maximum processes for parallel image loading"
-msgstr "多執行緒影象載入的最大程序數"
+msgstr "多執行緒影像載入的最大程序數"
 
 #: rc.c:85
 msgid "Use external image viewer"
-msgstr "使用外部圖片檢視器"
+msgstr "使用外置圖片檢視器"
 
 #: rc.c:86
 msgid "Scale of image (%)"
-msgstr "影象比例尺 (%)"
+msgstr "影像比例 (%)"
 
 #: rc.c:87
 msgid "External command to display image"
-msgstr "用於顯示影象的外部命令"
+msgstr "用於顯示影像的外部命令"
 
 #: rc.c:88
 msgid "Use link list of image map"
-msgstr "使用影象對映的連結列表"
+msgstr "使用影像對映的連結列表"
 
 #: rc.c:90
 msgid "Display file names in multi-column format"
-msgstr "以多列格式顯示檔名"
+msgstr "以多重欄位格式顯示檔名"
 
 #: rc.c:91
 msgid "Use ASCII equivalents to display entities"
-msgstr "使用對應的 ASCII 編碼來顯示實體 "
+msgstr "使用對應的 ASCII 字符顯示實體 "
 
 #: rc.c:92
 msgid "Character type for border of table and menu"
@@ -212,7 +212,7 @@ msgstr "表格和選單邊框的字元類型"
 
 #: rc.c:93
 msgid "Display table borders, ignore value of BORDER"
-msgstr "顯示錶格邊框，忽略 BORDER 數值"
+msgstr "務必顯示表格邊框，忽略 BORDER 數值"
 
 #: rc.c:94
 msgid "Fold lines in TEXTAREA"
@@ -224,7 +224,7 @@ msgstr "顯示 INS, DEL, S 及 STRIKE 元素"
 
 #: rc.c:96
 msgid "Display with color"
-msgstr "使用帶顏色的顯示"
+msgstr "使用顏色"
 
 #: rc.c:97
 msgid "Color of normal character"
@@ -272,23 +272,23 @@ msgstr "使用代理伺服器"
 
 #: rc.c:108
 msgid "URL of HTTP proxy host"
-msgstr "HTTP 代理主機地址"
+msgstr "HTTP 代理伺服器位址"
 
 #: rc.c:110
 msgid "URL of HTTPS proxy host"
-msgstr "HTTPS 代理主機地址"
+msgstr "HTTPS 代理伺服器位址"
 
 #: rc.c:113
 msgid "URL of GOPHER proxy host"
-msgstr "GOPHER 代理主機地址"
+msgstr "GOPHER 代理伺服器位址"
 
 #: rc.c:115
 msgid "URL of FTP proxy host"
-msgstr "FTP 代理主機地址"
+msgstr "FTP 代理伺服器位址"
 
 #: rc.c:116
 msgid "Domains to be accessed directly (no proxy)"
-msgstr "直接訪問而不是用代理伺服器訪問的 URL"
+msgstr "不使用代理伺服器的網域"
 
 #: rc.c:117
 msgid "Check noproxy by network address"
@@ -316,7 +316,7 @@ msgstr "名稱解析順序"
 
 #: rc.c:125
 msgid "Directory corresponding to / (document root)"
-msgstr "對應 / 的目錄 (文件根目錄)"
+msgstr "對應 / （文件根目錄）的目錄"
 
 #: rc.c:126
 msgid "Directory corresponding to /~user"
@@ -332,7 +332,7 @@ msgstr "使用 q 鍵退出時請求確認"
 
 #: rc.c:129
 msgid "Close tab if buffer is last when back"
-msgstr "在返回時緩衝區還是以前狀態就關閉標籤頁"
+msgstr "從最後一個緩衝區返回時隨即關閉分頁"
 
 #: rc.c:131
 msgid "Enable mark operations"
@@ -348,11 +348,11 @@ msgstr "啟動 vi 式的數字跳轉"
 
 #: rc.c:135
 msgid "Move cursor to top line when going to label"
-msgstr "當移動到標籤時將游標移到最頂行"
+msgstr "跳到標籤時將游標移到最頂行"
 
 #: rc.c:136
 msgid "Move cursor to top line when moving to next page"
-msgstr "當轉到下一頁時將游標移到最頂行"
+msgstr "跳到下一頁時將游標移到最頂行"
 
 #: rc.c:137
 msgid "Fold lines of plain text file"
@@ -364,7 +364,7 @@ msgstr "顯示行號"
 
 #: rc.c:139
 msgid "Show search string"
-msgstr "顯示搜尋字元串"
+msgstr "顯示搜尋字串"
 
 #: rc.c:140
 msgid "List of mime.types files"
@@ -864,7 +864,7 @@ msgstr "字符集特定"
 
 #: rc.c:361
 msgid "DEC special graphics"
-msgstr "DEC 特殊影象"
+msgstr "DEC 特殊影像"
 
 #: rc.c:740
 msgid "Display Settings"
