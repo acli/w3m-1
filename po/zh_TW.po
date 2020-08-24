@@ -508,7 +508,7 @@ msgstr "字典查詢命令的網址"
 
 #: rc.c:180
 msgid "Display link name for images lacking ALT"
-msgstr "對缺少 ALT 的圖片顯示連結名稱"
+msgstr "圖片 ALT 值為空白時顯示連結名稱"
 
 #: rc.c:181
 msgid "Index file for directories"
@@ -536,7 +536,7 @@ msgstr "啟用滑鼠"
 
 #: rc.c:188
 msgid "Scroll in reverse direction of mouse drag"
-msgstr "向滑鼠拖動的反方向滾動"
+msgstr "拖曳滑鼠時反方向捲動"
 
 #: rc.c:189
 msgid "Behavior of wheel scroll speed"
@@ -556,11 +556,11 @@ msgstr "釋放未顯示快取的儲存"
 
 #: rc.c:194
 msgid "Suppress `Referer:' header"
-msgstr "禁止 'Referer:' 檔案頭"
+msgstr "不傳送 Referer 標頭"
 
 #: rc.c:195
 msgid "Search case-insensitively"
-msgstr "搜尋不區分大小寫"
+msgstr "搜尋時不區分大小寫"
 
 #: rc.c:196
 msgid "Use LESSOPEN"
@@ -580,7 +580,7 @@ msgstr "客戶端的 PEM 編碼私鑰檔案"
 
 #: rc.c:202
 msgid "Path to directory for PEM encoded certificates of CAs"
-msgstr "PEM 編碼 CA 證書目錄的路徑"
+msgstr "憑證機構的 PEM 證書所在目錄路徑"
 
 #: rc.c:203
 msgid "File consisting of PEM encoded certificates of CAs"
@@ -588,23 +588,23 @@ msgstr "包含 PEM 編碼 CA 證書的檔案"
 
 #: rc.c:205
 msgid "List of forbidden SSL methods (2: SSLv2, 3: SSLv3, t: TLSv1.0, 5: TLSv1.1, 6: TLSv1.2, 7: TLSv1.3)"
-msgstr "被禁止的 SSL 方式列表 (2: SSLv2, 3: SSLv3, t: TLSv1.0, 5: TLSv1.1, 6: TLSv1.2, 7: TLSv1.3)"
+msgstr "禁止使用的 SSL 方式 (2: SSLv2, 3: SSLv3, t: TLSv1.0, 5: TLSv1.1, 6: TLSv1.2, 7: TLSv1.3)"
 
 #: rc.c:208
 msgid "Enable cookie processing"
-msgstr "開啟 Cookie 處理"
+msgstr "啟動 Cookie 處理"
 
 #: rc.c:209
 msgid "Print a message when receiving a cookie"
-msgstr "在接收一個 Cookie 時顯示一個訊息"
+msgstr "接收 Cookie 時顯示訊息"
 
 #: rc.c:210
 msgid "Accept cookies"
-msgstr "接受 Cookies"
+msgstr "接受 Cookie"
 
 #: rc.c:211
 msgid "Action to be taken on invalid cookie"
-msgstr "對無效 Cookies 進行的操作"
+msgstr "無效 Cookie 的處理方法"
 
 #: rc.c:212
 msgid "Domains to reject cookies from"
@@ -624,11 +624,11 @@ msgstr "跟隨的重定向數量"
 
 #: rc.c:217
 msgid "Enable processing of meta-refresh tag"
-msgstr "開啟 meta-refresh 標籤處理"
+msgstr "啟動 meta-refresh 標籤處理"
 
 #: rc.c:220
 msgid "Enable Migemo (Roma-ji search)"
-msgstr "開啟 Migemo (羅馬字搜尋)"
+msgstr "啟動 Migemo (日語羅馬字搜尋)"
 
 #: rc.c:221
 msgid "Migemo command"
@@ -636,31 +636,31 @@ msgstr "Migemo 命令"
 
 #: rc.c:225
 msgid "Display charset"
-msgstr "顯示字符集"
+msgstr "輸出編碼"
 
 #: rc.c:226
 msgid "Default document charset"
-msgstr "預設文件字符集"
+msgstr "預設文件編碼"
 
 #: rc.c:227
 msgid "Automatic charset detect when loading"
-msgstr "在載入時進行自動字符集探測"
+msgstr "載入時自動偵測文件編碼"
 
 #: rc.c:228
 msgid "System charset"
-msgstr "系統字符集"
+msgstr "系統編碼"
 
 #: rc.c:229
 msgid "System charset follows locale(LC_CTYPE)"
-msgstr "根據系統設定 (LC_CTYPE) 選定系統字符集"
+msgstr "按 LC_CTYPE 選擇系統編碼"
 
 #: rc.c:230
 msgid "Output halfdump with display charset"
-msgstr "使用顯示字符集輸出 halfdump"
+msgstr "使用輸出編碼時使用半傾印 (halfdump) 輸出模式"
 
 #: rc.c:231
 msgid "Use multi column characters"
-msgstr "使用多列字元"
+msgstr "使用全形符號"
 
 #: rc.c:232
 msgid "Use combining characters"
@@ -668,7 +668,7 @@ msgstr "使用合併字元"
 
 #: rc.c:233
 msgid "Use double width for some Unicode characters"
-msgstr "使 Unicode 字元使用雙重寬度"
+msgstr "使用全形字顯示某些 Unicode 字元"
 
 #: rc.c:234
 msgid "Use Unicode language tags"
@@ -676,19 +676,19 @@ msgstr "使用 Unicode 語言標籤"
 
 #: rc.c:235
 msgid "Charset conversion using Unicode map"
-msgstr "使用 Unicode 對映進行字符集轉換"
+msgstr "使用 Unicode 對映進行編碼轉換"
 
 #: rc.c:236
 msgid "Charset conversion when loading"
-msgstr "在載入時進行字符集轉換"
+msgstr "載入時進行編碼轉換"
 
 #: rc.c:237
 msgid "Adjust search string for document charset"
-msgstr "調整文件字符集的搜尋字串"
+msgstr "搜尋時按文件編碼自動調整搜尋字串"
 
 #: rc.c:238
 msgid "Fix character width when conversion"
-msgstr "在轉換時固定字元寬度"
+msgstr "轉換編碼時自動校正字元寬度"
 
 #: rc.c:239
 msgid "Use GB 12345 Unicode map instead of GB 2312's"
@@ -724,7 +724,7 @@ msgstr "視 GB18030 編碼的 4 位元組字元為 Unicode"
 
 #: rc.c:247
 msgid "Simple Preserve space"
-msgstr "簡單的保留空間"
+msgstr "保留空白時只作簡單處理"
 
 #: rc.c:250
 msgid "keymap file"
@@ -764,7 +764,7 @@ msgstr "白色"
 
 #: rc.c:275
 msgid "terminal"
-msgstr "終端"
+msgstr "終端機預設"
 
 #: rc.c:294
 msgid "none"
@@ -780,15 +780,15 @@ msgstr "連結 URL"
 
 #: rc.c:301
 msgid "simple"
-msgstr "簡單"
+msgstr "不作處理"
 
 #: rc.c:302
 msgid "use tag"
-msgstr "使用標籤"
+msgstr "顯示標籤"
 
 #: rc.c:303
 msgid "fontify"
-msgstr ""
+msgstr "格式化"
 
 #: rc.c:309
 msgid "A:relative to screen height"
@@ -864,7 +864,7 @@ msgstr "字符集特定"
 
 #: rc.c:361
 msgid "DEC special graphics"
-msgstr "DEC 特殊影像"
+msgstr "DEC 特殊圖形字元"
 
 #: rc.c:740
 msgid "Display Settings"
@@ -892,7 +892,7 @@ msgstr "網路設定"
 
 #: rc.c:748
 msgid "Proxy Settings"
-msgstr "代理設定"
+msgstr "代理伺服器設定"
 
 #: rc.c:750
 msgid "SSL Settings"
@@ -913,4 +913,4 @@ msgstr "字符集設定"
 #.
 #: rc.c:1238
 msgid "en;q=1.0"
-msgstr "zh-TW;q=1.0, zh-Hants;q=0.9, zh;q=0.8, en;q=0.6"
+msgstr "zh-TW;q=1.0, zh-Hant;q=0.9, en;q=0.8; zh;q=0.6"
