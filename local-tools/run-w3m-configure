@@ -1,5 +1,5 @@
-CFLAGS=-g \
 dir=/software/w3m
+CFLAGS=-g \
 ./configure --prefix=$dir \
 --sysconfdir=$dir/config \
 --datarootdir=$dir/data \
