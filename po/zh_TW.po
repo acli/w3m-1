@@ -384,11 +384,11 @@ msgstr "編輯器"
 
 #: rc.c:144
 msgid "Mailer"
-msgstr "傳送者"
+msgstr "電子郵件程式"
 
 #: rc.c:145
 msgid "How to call Mailer for mailto URLs with options"
-msgstr "啟動 mailto 地址時呼叫電子郵件程式的方式和參數"
+msgstr "啟動含參數的 mailto 網址時呼叫電子郵件程式的方法"
 
 #: rc.c:146
 msgid "External browser"
@@ -428,7 +428,7 @@ msgstr "第九外部瀏覽器"
 
 #: rc.c:155
 msgid "Disable secret file security check"
-msgstr "關閉祕密檔案安全檢查"
+msgstr "停用秘密檔案安全檢查"
 
 #: rc.c:156
 msgid "Password file"
@@ -436,19 +436,19 @@ msgstr "密碼檔案"
 
 #: rc.c:157
 msgid "File for setting form on loading"
-msgstr "設定視窗載入時的檔案"
+msgstr "填寫表格使用的秘密檔案"
 
 #: rc.c:158
 msgid "File for preferences for each site"
-msgstr "各個站點的首選項檔案"
+msgstr "網站偏好檔案"
 
 #: rc.c:159
 msgid "Password for anonymous FTP (your mail address)"
-msgstr "匿名FTP密碼（您的郵箱地址）"
+msgstr "匿名FTP密碼（您的電子郵件地址）"
 
 #: rc.c:160
 msgid "Generate domain part of password for FTP"
-msgstr "為 FTP 生成密碼的域部分"
+msgstr "為 FTP 生成密碼的網域部分"
 
 #: rc.c:161
 msgid "User-Agent identification string"
@@ -456,35 +456,35 @@ msgstr "User-Agent 串"
 
 #: rc.c:162
 msgid "Accept-Encoding header"
-msgstr "接受的編碼 (Accept-Encoding) 報頭"
+msgstr "接受的編碼 (Accept-Encoding) 標頭"
 
 #: rc.c:163
 msgid "Accept header"
-msgstr "接受 (Accept) 報頭"
+msgstr "接受 (Accept) 標頭"
 
 #: rc.c:164
 msgid "Accept-Language header"
-msgstr "接受的語言 (Accept-Language) 報頭"
+msgstr "接受的語言 (Accept-Language) 標頭"
 
 #: rc.c:165
 msgid "Treat URL-like strings as links in all pages"
-msgstr "將所有頁面中類似於 URL 的字元串當做連結"
+msgstr "將所有頁面中疑似 URL 的字串當做連結"
 
 #: rc.c:166
 msgid "Wrap search"
-msgstr "包裝搜尋結果"
+msgstr "啟動搜尋回繞"
 
 #: rc.c:167
 msgid "Display unseen objects (e.g. bgimage tag)"
-msgstr "顯示看不到的物件 （例如，bdimage標籤）"
+msgstr "顯示看不到的物件（例如 bdimage 標籤）"
 
 #: rc.c:168
 msgid "Uncompress compressed data automatically when downloading"
-msgstr "在下載時自動解壓被壓縮的資料"
+msgstr "下載時自動解壓被壓縮的資料"
 
 #: rc.c:170
 msgid "Run external viewer in a separate session"
-msgstr "在另一個會話中執行外部檢視器"
+msgstr "在另一個工作階段中執行外部檢視器"
 
 #: rc.c:172
 msgid "Run external viewer in the background"
