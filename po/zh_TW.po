@@ -105,7 +105,7 @@ msgstr "外部檢視器設定"
 
 #: rc.c:63
 msgid "Tab width in characters"
-msgstr "欄標字元寬度（個半形字元）"
+msgstr "欄標字元寬度（半形字元個數）"
 
 #: rc.c:64
 msgid "Indent for HTML rendering"
@@ -113,11 +113,11 @@ msgstr "縮排字元數（顯示 HTML 專用）"
 
 #: rc.c:65
 msgid "Number of pixels per character (4.0...32.0)"
-msgstr "半形字元寛度（個像素） (4.0...32.0)"
+msgstr "半形字元寛度（像素） (4.0...32.0)"
 
 #: rc.c:66
 msgid "Number of pixels per line (4.0...64.0)"
-msgstr "半形字元高度（個像素） (4.0...64.0)"
+msgstr "半形字元高度（像素） (4.0...64.0)"
 
 #: rc.c:67
 msgid "Number of remembered lines when used as a pager"
@@ -393,7 +393,7 @@ msgstr "電子郵件程式"
 
 #: rc.c:145
 msgid "How to call Mailer for mailto URLs with options"
-msgstr "開啟含參數的 mailto 網址時呼叫電子郵件程式的方法"
+msgstr "開啟含參數的 mailto 網址時執行電子郵件程式的方法"
 
 #: rc.c:146
 msgid "External browser"
@@ -457,7 +457,7 @@ msgstr "為 FTP 生成密碼的網域部分"
 
 #: rc.c:161
 msgid "User-Agent identification string"
-msgstr "User-Agent 識別字串"
+msgstr "User-Agent 識別符"
 
 #: rc.c:162
 msgid "Accept-Encoding header"
