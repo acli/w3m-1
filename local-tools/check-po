@@ -1,0 +1,1 @@
+for i in *.po; do msgfmt --statistics -cvo /dev/null $i; done
