@@ -1,7 +1,11 @@
 # zh_TW translation for w3m
 # Copyright (C) 2014-2000 w3m contributors.
 # This file is distributed under the same license as the w3m package.
+#
+# Comparative editing:
 # Ambrose Li <ambrose.li@gmail.com>, 2020.
+#
+# Originally machine-converted from zh_CN translation translated by:
 # Junde Yi <lmy441900@gmail.com>, 2014.
 # Mingcong Bai <jeffbai@aosc.xyz>, 2014.
 # liushuyu <liushuyu_011@126.com>, 2014.
@@ -15,7 +19,7 @@ msgstr ""
 "POT-Creation-Date: 2016-03-14 19:47+0900\n"
 "PO-Revision-Date: 2016-03-14 19:51+0900\n"
 "Last-Translator: Ambrose Li <ambrose.li@gmail.com>\n"
-"Language-Team: Pidgin zh_TW translation team <http://www.transifex.com/pidgin/pidgin/language/zh_TW/>\n"
+"Language-Team: Pidgin zh_TW <http://www.transifex.com/pidgin/pidgin/language/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,15 +40,15 @@ msgstr " 選擇分頁     (t) "
 
 #: menu.c:274
 msgid " View Source  (v) "
-msgstr " 檢視源碼     (v) "
+msgstr " 檢視源始碼   (v) "
 
 #: menu.c:275
 msgid " Edit Source  (e) "
-msgstr " 修改源碼     (e) "
+msgstr " 修改源始碼   (e) "
 
 #: menu.c:276
 msgid " Save Source  (S) "
-msgstr " 儲存源碼     (S) "
+msgstr " 儲存源始碼   (S) "
 
 #: menu.c:277
 msgid " Reload       (r) "
@@ -56,11 +60,11 @@ msgstr " ---------------- "
 
 #: menu.c:279
 msgid " Go Link      (a) "
-msgstr " 轉到連結     (a) "
+msgstr " 打開連結     (a) "
 
 #: menu.c:280
 msgid "   on New Tab (n) "
-msgstr "   在新標籤   (n) "
+msgstr "   於新分頁   (n) "
 
 #: menu.c:281
 msgid " Save Link    (A) "
@@ -84,7 +88,7 @@ msgstr " 書籤         (B) "
 
 #: menu.c:287
 msgid " Help         (h) "
-msgstr " 幫助         (h) "
+msgstr " 說明         (h) "
 
 #: menu.c:288
 msgid " Option       (o) "
@@ -92,7 +96,7 @@ msgstr " 選項         (o) "
 
 #: menu.c:290
 msgid " Quit         (q) "
-msgstr " 退出         (q) "
+msgstr " 結束程式     (q) "
 
 #: rc.c:62
 msgid "External Viewer Setup"
@@ -100,23 +104,23 @@ msgstr "外部檢視器設定"
 
 #: rc.c:63
 msgid "Tab width in characters"
-msgstr "文字中的 TAB 寬度"
+msgstr "欄標字元寬度（半形字元計算）"
 
 #: rc.c:64
 msgid "Indent for HTML rendering"
-msgstr "用於 HTML 渲染"
+msgstr "縮排字元數（顯示 HTML 用）"
 
 #: rc.c:65
 msgid "Number of pixels per character (4.0...32.0)"
-msgstr "半形字符像素寛度 (4.0...32.0)"
+msgstr "半形字元像素寛度 (4.0...32.0)"
 
 #: rc.c:66
 msgid "Number of pixels per line (4.0...64.0)"
-msgstr "每行的畫素數 (4.0...64.0)"
+msgstr "半形字元像素高度 (4.0...64.0)"
 
 #: rc.c:67
 msgid "Number of remembered lines when used as a pager"
-msgstr "當作為分頁器使用時記憶的行數"
+msgstr "作為分頁器使用時記憶的行數"
 
 #: rc.c:68
 msgid "Use URL history"
@@ -132,15 +136,15 @@ msgstr "儲存 URL 歷史"
 
 #: rc.c:71
 msgid "Render frames automatically"
-msgstr "自動渲染框架"
+msgstr "自動顯示框架"
 
 #: rc.c:72
 msgid "Treat argument without scheme as URL"
-msgstr "將無格式的參數看作 URL"
+msgstr "沒有通訊協定 (scheme) 的參數一律視作網址"
 
 #: rc.c:73
 msgid "Use _self as default target"
-msgstr "將自身作為預設目標 (_S)"
+msgstr "將 _self 作為預設目標 (_S)"
 
 #: rc.c:74
 msgid "Open link on new tab if target is _blank or _new"
@@ -148,11 +152,11 @@ msgstr "如果目標為空 (_b) 或新建 (_n) 在新標籤開啟頁面"
 
 #: rc.c:75
 msgid "Open download list panel on new tab"
-msgstr "開啟下載列表面板於新標籤"
+msgstr "在新分頁開啟下載清單"
 
 #: rc.c:76
 msgid "Display link URL automatically"
-msgstr "自動顯示連結 URL"
+msgstr "自動顯示連結網址"
 
 #: rc.c:77
 msgid "Display link numbers"
@@ -160,7 +164,7 @@ msgstr "顯示連結編號"
 
 #: rc.c:78
 msgid "Display decoded URL"
-msgstr "顯示解碼後的 URL"
+msgstr "顯示解碼後的網址"
 
 #: rc.c:79
 msgid "Display current line number"
@@ -172,7 +176,7 @@ msgstr "顯示嵌入影像"
 
 #: rc.c:81
 msgid "Display pseudo-ALTs for inline images with no ALT or TITLE string"
-msgstr "為不帶有 ALT 或 TITLE 字串的內聯影像顯示偽 ALT"
+msgstr "為不帶有 ALT 或 TITLE 字串的嵌入影像顯示虛擬替代文字"
 
 #: rc.c:83
 msgid "Load inline images automatically"
@@ -180,7 +184,7 @@ msgstr "自動載入嵌入影像"
 
 #: rc.c:84
 msgid "Maximum processes for parallel image loading"
-msgstr "多執行緒影像載入的最大程序數"
+msgstr "平行載入影像時繁洐的子程序數量上限"
 
 #: rc.c:85
 msgid "Use external image viewer"
@@ -196,7 +200,7 @@ msgstr "用於顯示影像的外部命令"
 
 #: rc.c:88
 msgid "Use link list of image map"
-msgstr "使用影像對映的連結列表"
+msgstr "使用影像地圖內的連結清單"
 
 #: rc.c:90
 msgid "Display file names in multi-column format"
@@ -204,15 +208,15 @@ msgstr "以多重欄位格式顯示檔名"
 
 #: rc.c:91
 msgid "Use ASCII equivalents to display entities"
-msgstr "使用對應的 ASCII 字符顯示實體 "
+msgstr "使用純 ASCII 字元顯示實體"
 
 #: rc.c:92
 msgid "Character type for border of table and menu"
-msgstr "表格和選單邊框的字元類型"
+msgstr "表格和選單外框和格線的字元類型"
 
 #: rc.c:93
 msgid "Display table borders, ignore value of BORDER"
-msgstr "務必顯示表格邊框，忽略 BORDER 數值"
+msgstr "所有表格一律顯示外框和格線（忽略 BORDER 數值）"
 
 #: rc.c:94
 msgid "Fold lines in TEXTAREA"
@@ -220,7 +224,7 @@ msgstr "在文字區 (TEXTAREA) 中摺疊行"
 
 #: rc.c:95
 msgid "Display INS, DEL, S and STRIKE element"
-msgstr "顯示 INS, DEL, S 及 STRIKE 元素"
+msgstr "INS、DEL、S 及 STRIKE 元素的顯示方式"
 
 #: rc.c:96
 msgid "Display with color"
