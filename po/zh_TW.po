@@ -105,19 +105,19 @@ msgstr "外部檢視器設定"
 
 #: rc.c:63
 msgid "Tab width in characters"
-msgstr "欄標字元寬度（半形字元計算）"
+msgstr "欄標字元寬度（個半形字元）"
 
 #: rc.c:64
 msgid "Indent for HTML rendering"
-msgstr "縮排字元數（顯示 HTML 時用）"
+msgstr "縮排字元數（顯示 HTML 專用）"
 
 #: rc.c:65
 msgid "Number of pixels per character (4.0...32.0)"
-msgstr "半形字元像素寛度 (4.0...32.0)"
+msgstr "半形字元寛度（個像素） (4.0...32.0)"
 
 #: rc.c:66
 msgid "Number of pixels per line (4.0...64.0)"
-msgstr "半形字元像素高度 (4.0...64.0)"
+msgstr "半形字元高度（個像素） (4.0...64.0)"
 
 #: rc.c:67
 msgid "Number of remembered lines when used as a pager"
@@ -169,7 +169,7 @@ msgstr "顯示網址前先行解碼"
 
 #: rc.c:79
 msgid "Display current line number"
-msgstr "顯示目前行數"
+msgstr "顯示目前行號"
 
 #: rc.c:80
 msgid "Display inline images"
@@ -577,11 +577,11 @@ msgstr "進行 SSL 伺服器驗證"
 
 #: rc.c:200
 msgid "PEM encoded certificate file of client"
-msgstr "客戶端的 PEM 憑證檔案"
+msgstr "用戶端的 PEM 憑證檔案"
 
 #: rc.c:201
 msgid "PEM encoded private key file of client"
-msgstr "客戶端的 PEM 私鑰檔案"
+msgstr "用戶端的 PEM 私鑰檔案"
 
 #: rc.c:202
 msgid "Path to directory for PEM encoded certificates of CAs"
@@ -589,7 +589,7 @@ msgstr "憑證機構的 PEM 憑證所在目錄路徑"
 
 #: rc.c:203
 msgid "File consisting of PEM encoded certificates of CAs"
-msgstr "包含憑證機構的 PEM 證書的檔案"
+msgstr "含有憑證機構的 PEM 證書的單個檔案"
 
 #: rc.c:205
 msgid ""
