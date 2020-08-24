@@ -1,5 +1,5 @@
 # zh_TW translation for w3m
-# Copyright (C) 2014-2000 w3m contributors.
+# Copyright (C) 2014-2020 w3m contributors.
 # This file is distributed under the same license as the w3m package.
 #
 # Comparative editing:
