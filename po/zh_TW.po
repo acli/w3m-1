@@ -121,7 +121,7 @@ msgstr "半形字元高度（像素） (4.0...64.0)"
 
 #: rc.c:67
 msgid "Number of remembered lines when used as a pager"
-msgstr "作為過濾器使用時記憶的行數"
+msgstr "作為分頁器使用時記憶的行數"
 
 #: rc.c:68
 msgid "Use URL history"
