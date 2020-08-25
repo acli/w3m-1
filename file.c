@@ -5286,8 +5286,9 @@ HTMLtagproc1(struct parsed_tag *tag, struct html_feed_environ *h_env)
 	case DISPLAY_INS_DEL_NORMAL:
 	    HTMLlineproc1("<U>[S:</U>", h_env);
 	    break;
-	case DISPLAY_INS_DEL_FONTIFY:
 	case DISPLAY_INS_DEL_UNICODE:
+	    HTMLlineproc1("&#8257;", h_env);
+	case DISPLAY_INS_DEL_FONTIFY:
 	    obuf->in_strike++;
 	    if (obuf->in_strike == 1) {
 		push_tag(obuf, "<s>", HTML_S);
