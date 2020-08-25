@@ -5248,6 +5248,7 @@ HTMLtagproc1(struct parsed_tag *tag, struct html_feed_environ *h_env)
 	    HTMLlineproc1("<U>[DEL:</U>", h_env);
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    obuf->in_strike++;
 	    if (obuf->in_strike == 1) {
 		push_tag(obuf, "<s>", HTML_S);
@@ -5263,6 +5264,7 @@ HTMLtagproc1(struct parsed_tag *tag, struct html_feed_environ *h_env)
 	case DISPLAY_INS_DEL_NORMAL:
 	    HTMLlineproc1("<U>:DEL]</U>", h_env);
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    if (obuf->in_strike == 0)
 		return 1;
 	    if (obuf->in_strike == 1 && close_effect0(obuf, HTML_S))
@@ -5285,6 +5287,7 @@ HTMLtagproc1(struct parsed_tag *tag, struct html_feed_environ *h_env)
 	    HTMLlineproc1("<U>[S:</U>", h_env);
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    obuf->in_strike++;
 	    if (obuf->in_strike == 1) {
 		push_tag(obuf, "<s>", HTML_S);
@@ -5301,6 +5304,7 @@ HTMLtagproc1(struct parsed_tag *tag, struct html_feed_environ *h_env)
 	    HTMLlineproc1("<U>:S]</U>", h_env);
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    if (obuf->in_strike == 0)
 		return 1;
 	    if (obuf->in_strike == 1 && close_effect0(obuf, HTML_S))
@@ -5321,6 +5325,7 @@ HTMLtagproc1(struct parsed_tag *tag, struct html_feed_environ *h_env)
 	    HTMLlineproc1("<U>[INS:</U>", h_env);
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    obuf->in_ins++;
 	    if (obuf->in_ins == 1) {
 		push_tag(obuf, "<ins>", HTML_INS);
@@ -5336,6 +5341,7 @@ HTMLtagproc1(struct parsed_tag *tag, struct html_feed_environ *h_env)
 	    HTMLlineproc1("<U>:INS]</U>", h_env);
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    if (obuf->in_ins == 0)
 		return 1;
 	    if (obuf->in_ins == 1 && close_effect0(obuf, HTML_INS))
@@ -6609,6 +6615,22 @@ HTMLlineproc0(char *line, struct html_feed_environ *h_env, int internal)
 			proc_mchar(obuf, obuf->flag & RB_SPECIAL, delta, &str,
 				   mode);
 		}
+#ifdef USE_M17N
+		if (displayInsDel == DISPLAY_INS_DEL_UNICODE) {
+		    if (obuf->in_under) {
+			char *s = "&#818;";
+			proc_escape(obuf, &s);
+		    }
+		    if (obuf->in_strike) {
+			char *s = "&#8421;";
+			proc_escape(obuf, &s);
+		    }
+		    if (obuf->in_ins) {
+			char *s = "&#813;"; /* XXX */
+			proc_escape(obuf, &s);
+		    }
+		}
+#endif
 	    }
 	    if (need_flushline(h_env, obuf, mode)) {
 		char *bp = obuf->line->ptr + obuf->bp.len;

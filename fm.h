@@ -1034,6 +1034,7 @@ global int ignore_null_img_alt init(TRUE);
 #define DISPLAY_INS_DEL_SIMPLE	0
 #define DISPLAY_INS_DEL_NORMAL	1
 #define DISPLAY_INS_DEL_FONTIFY	2
+#define DISPLAY_INS_DEL_UNICODE	3
 global int displayInsDel init(DISPLAY_INS_DEL_NORMAL);
 global int FoldTextarea init(FALSE);
 global int FoldLine init(FALSE);

@@ -2983,6 +2983,7 @@ feed_table_tag(struct table *tbl, char *line, struct table_mode *mode,
 	    feed_table_inline_tag(tbl, line, mode, 5);	/* [DEL: */
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    feed_table_inline_tag(tbl, line, mode, -1);
 	    break;
 	}
@@ -2996,6 +2997,7 @@ feed_table_tag(struct table *tbl, char *line, struct table_mode *mode,
 	    feed_table_inline_tag(tbl, line, mode, 5);	/* :DEL] */
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    feed_table_inline_tag(tbl, line, mode, -1);
 	    break;
 	}
@@ -3009,6 +3011,7 @@ feed_table_tag(struct table *tbl, char *line, struct table_mode *mode,
 	    feed_table_inline_tag(tbl, line, mode, 3);	/* [S: */
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    feed_table_inline_tag(tbl, line, mode, -1);
 	    break;
 	}
@@ -3022,6 +3025,7 @@ feed_table_tag(struct table *tbl, char *line, struct table_mode *mode,
 	    feed_table_inline_tag(tbl, line, mode, 3);	/* :S] */
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    feed_table_inline_tag(tbl, line, mode, -1);
 	    break;
 	}
@@ -3035,6 +3039,7 @@ feed_table_tag(struct table *tbl, char *line, struct table_mode *mode,
 	    feed_table_inline_tag(tbl, line, mode, 5);	/* [INS:, :INS] */
 	    break;
 	case DISPLAY_INS_DEL_FONTIFY:
+	case DISPLAY_INS_DEL_UNICODE:
 	    feed_table_inline_tag(tbl, line, mode, -1);
 	    break;
 	}

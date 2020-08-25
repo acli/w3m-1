@@ -301,6 +301,9 @@ static struct sel_c displayinsdel[] = {
     {N_S(DISPLAY_INS_DEL_SIMPLE), N_("simple")},
     {N_S(DISPLAY_INS_DEL_NORMAL), N_("use tag")},
     {N_S(DISPLAY_INS_DEL_FONTIFY), N_("fontify")},
+#ifdef USE_M17N
+    {N_S(DISPLAY_INS_DEL_UNICODE), N_("abuse Unicode")},
+#endif
     {0, NULL, NULL}
 };
 
