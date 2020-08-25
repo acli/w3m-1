@@ -4323,12 +4323,18 @@ process_idattr(struct readbuffer *obuf, int cmd, struct parsed_tag *tag)
       obuf->flag &= ~RB_P;\
     }
 
-#define HTML5_CLOSE_A \
-    if (obuf->flag & RB_HTML5) close_anchor(h_env, obuf);
+#define HTML5_CLOSE_A do { \
+	if (obuf->flag & RB_HTML5) { \
+	    close_anchor(h_env, obuf); \
+	} \
+    } while (0)
 
-#define CLOSE_A \
-    CLOSE_P; \
-    if (!(obuf->flag & RB_HTML5)) close_anchor(h_env, obuf);
+#define CLOSE_A do { \
+	CLOSE_P; \
+	if (!(obuf->flag & RB_HTML5)) { \
+	    close_anchor(h_env, obuf); \
+	} \
+    } while (0)
 
 #define CLOSE_DT \
     if (obuf->flag & RB_IN_DT) { \
