@@ -1,1 +1,0 @@
-git diff de.po ja.po zh_CN.po w3m.pot|patch -R

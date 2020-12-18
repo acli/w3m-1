@@ -1,8 +1,0 @@
-dir=/software/w3m
-CFLAGS=-g \
-./configure --prefix=$dir \
---sysconfdir=$dir/config \
---datarootdir=$dir/data \
---mandir=$dir/man \
---infodir=$dir/doc \
---libexecdir=$dir/servers \
